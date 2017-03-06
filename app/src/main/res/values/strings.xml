@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Letu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigate">导航</string>
+    <string name="nearby">附近</string>
+    <string name="me">我的</string>
+    <string-array name="life">
+        <item>美食</item>
+        <item>酒店</item>
+        <item>旅游</item>
+        <item>安全</item>
+    </string-array>
+</resources>
