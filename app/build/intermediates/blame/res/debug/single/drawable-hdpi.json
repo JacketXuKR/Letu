@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\navi_map_gps_locked.png",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\navi_map_gps_locked.png"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gps_point.png",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\gps_point.png"
+    }
+]
