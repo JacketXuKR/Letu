@@ -1,6 +1,138 @@
 [
     {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slider_layout.xml",
+        "source": "E:\\otherProject\\Letu\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\slider_layout.xml"
+    },
+    {
         "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\outdataitem.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\outdataitem.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
+        "source": "E:\\otherProject\\Letu\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_default.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\indicator_layout.xml",
+        "source": "E:\\otherProject\\Letu\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\indicator_layout.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_error.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\load_error.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_me.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tour2item_listview.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\tour2item_listview.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_bus_segment.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\item_bus_segment.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_position.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\search_position.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\touritem_listview.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\touritem_listview.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_empty.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\load_empty.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_text.xml",
+        "source": "E:\\otherProject\\Letu\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_text.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_loading.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\load_loading.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_bubble.xml",
+        "source": "E:\\otherProject\\Letu\\app\\build\\intermediates\\exploded-aar\\com.flyco.dialog\\FlycoDialog_Lib\\1.3.2\\res\\layout\\popup_bubble.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_bus_search_result.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\item_bus_search_result.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_bus_step.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\item_bus_step.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_listview.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\item_listview.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_basic_navi.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_basic_navi.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_item_layout.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\search_item_layout.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_custom_direction_view.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_custom_direction_view.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_navigate.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_navigate.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hotelitem_listview.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\hotelitem_listview.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nearby.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_nearby.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\base.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_bus_segment_ex.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\item_bus_segment_ex.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_layout.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\search_layout.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_outdata.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_outdata.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_base.xml",
+        "source": "E:\\otherProject\\Letu\\app\\build\\intermediates\\exploded-aar\\com.flyco.dialog\\FlycoDialog_Lib\\1.3.2\\res\\layout\\popup_base.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\busitem_listview.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\busitem_listview.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_listview.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\fragment_listview.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bus_route_detail.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\layout\\activity_bus_route_detail.xml"
     }
 ]

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="glide-okhttp-integration-1.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/glide-okhttp-integration-1.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

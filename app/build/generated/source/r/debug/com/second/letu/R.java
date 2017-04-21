@@ -8,7 +8,18 @@
 package com.second.letu;
 
 public final class R {
+    public static final class array {
+        public static final int life=0x7f070000;
+    }
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int PagerIndicatorStyle=0x7f010028;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int SliderStyle=0x7f010027;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -16,7 +27,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alphaFactor=0x7f010001;
+        public static final int alphaFactor=0x7f01001e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -24,7 +35,29 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hover=0x7f010002;
+        public static final int auto_cycle=0x7f010024;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int buttonSize=0x7f010020;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circleCrop=0x7f010006;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -33,41 +66,912 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rippleColor=0x7f010000;
+        public static final int civ_border_color=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_border_overlay=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_border_width=0x7f010000;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_fill_color=0x7f010003;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int colorScheme=0x7f010021;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hover=0x7f01001f;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int imageAspectRatio=0x7f010005;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int imageAspectRatioAdjust=0x7f010004;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>visible</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int indicator_visibility=0x7f010023;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int padding_bottom=0x7f010014;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int padding_left=0x7f010011;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int padding_right=0x7f010012;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int padding_top=0x7f010013;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>Default</code></td><td>0</td><td></td></tr>
+<tr><td><code>Accordion</code></td><td>1</td><td></td></tr>
+<tr><td><code>Background2Foreground</code></td><td>2</td><td></td></tr>
+<tr><td><code>CubeIn</code></td><td>3</td><td></td></tr>
+<tr><td><code>DepthPage</code></td><td>4</td><td></td></tr>
+<tr><td><code>Fade</code></td><td>5</td><td></td></tr>
+<tr><td><code>FlipHorizontal</code></td><td>6</td><td></td></tr>
+<tr><td><code>FlipPage</code></td><td>7</td><td></td></tr>
+<tr><td><code>Foreground2Background</code></td><td>8</td><td></td></tr>
+<tr><td><code>RotateDown</code></td><td>9</td><td></td></tr>
+<tr><td><code>RotateUp</code></td><td>10</td><td></td></tr>
+<tr><td><code>Stack</code></td><td>11</td><td></td></tr>
+<tr><td><code>Tablet</code></td><td>12</td><td></td></tr>
+<tr><td><code>ZoomIn</code></td><td>13</td><td></td></tr>
+<tr><td><code>ZoomOutSlide</code></td><td>14</td><td></td></tr>
+<tr><td><code>ZoomOut</code></td><td>15</td><td></td></tr>
+</table>
+         */
+        public static final int pager_animation=0x7f010025;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pager_animation_span=0x7f010026;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int refreshColor=0x7f01002b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int refreshColors=0x7f01002a;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>material</code></td><td>0</td><td></td></tr>
+<tr><td><code>circles</code></td><td>1</td><td></td></tr>
+<tr><td><code>water_drop</code></td><td>2</td><td></td></tr>
+<tr><td><code>ring</code></td><td>3</td><td></td></tr>
+<tr><td><code>smartisan</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int refreshType=0x7f010029;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rippleColor=0x7f01001d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int scopeUris=0x7f010022;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selected_color=0x7f010009;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selected_drawable=0x7f01000b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selected_height=0x7f01000e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selected_padding_bottom=0x7f010018;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selected_padding_left=0x7f010015;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selected_padding_right=0x7f010016;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selected_padding_top=0x7f010017;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selected_width=0x7f01000d;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>oval</code></td><td>0</td><td></td></tr>
+<tr><td><code>rect</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int shape=0x7f010008;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselected_color=0x7f01000a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int unselected_drawable=0x7f01000c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselected_height=0x7f010010;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselected_padding_bottom=0x7f01001c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselected_padding_left=0x7f010019;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselected_padding_right=0x7f01001a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselected_padding_top=0x7f01001b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselected_width=0x7f01000f;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>visible</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int visibility=0x7f010007;
+    }
+    public static final class color {
+        public static final int act_background=0x7f080000;
+        public static final int bg_click=0x7f080001;
+        public static final int bg_normal=0x7f080002;
+        public static final int bg_tab_normal=0x7f080003;
+        public static final int bg_tab_pressed=0x7f080004;
+        public static final int bg_unClick=0x7f080005;
+        public static final int common_action_bar_splitter=0x7f080006;
+        public static final int common_google_signin_btn_text_dark=0x7f080019;
+        public static final int common_google_signin_btn_text_dark_default=0x7f080007;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f080008;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f080009;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f08000a;
+        public static final int common_google_signin_btn_text_light=0x7f08001a;
+        public static final int common_google_signin_btn_text_light_default=0x7f08000b;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f08000c;
+        public static final int common_google_signin_btn_text_light_focused=0x7f08000d;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f08000e;
+        public static final int common_plus_signin_btn_text_dark=0x7f08001b;
+        public static final int common_plus_signin_btn_text_dark_default=0x7f08000f;
+        public static final int common_plus_signin_btn_text_dark_disabled=0x7f080010;
+        public static final int common_plus_signin_btn_text_dark_focused=0x7f080011;
+        public static final int common_plus_signin_btn_text_dark_pressed=0x7f080012;
+        public static final int common_plus_signin_btn_text_light=0x7f08001c;
+        public static final int common_plus_signin_btn_text_light_default=0x7f080013;
+        public static final int common_plus_signin_btn_text_light_disabled=0x7f080014;
+        public static final int common_plus_signin_btn_text_light_focused=0x7f080015;
+        public static final int common_plus_signin_btn_text_light_pressed=0x7f080016;
+        public static final int tab_text_color=0x7f08001d;
+        public static final int tab_text_color_normal=0x7f080017;
+        public static final int tab_text_color_selected=0x7f080018;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int card_bk=0x7f020000;
-        public static final int gps_point=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int navi_map_gps_locked=0x7f020003;
+        public static final int amap_bus=0x7f020000;
+        public static final int amap_car=0x7f020001;
+        public static final int amap_end=0x7f020002;
+        public static final int amap_man=0x7f020003;
+        public static final int amap_ride=0x7f020004;
+        public static final int amap_start=0x7f020005;
+        public static final int amap_through=0x7f020006;
+        public static final int arrow_right_blue=0x7f020007;
+        public static final int back=0x7f020008;
+        public static final int bangding=0x7f020009;
+        public static final int bg_bottom_bar=0x7f02000a;
+        public static final int bg_tab=0x7f02000b;
+        public static final int bg_tab_text=0x7f02000c;
+        public static final int border_bg=0x7f02000d;
+        public static final int btn_click_selector=0x7f02000e;
+        public static final int btn_error_selector=0x7f02000f;
+        public static final int btn_normal=0x7f020010;
+        public static final int btn_pressed=0x7f020011;
+        public static final int btn_search_selector=0x7f020012;
+        public static final int bus=0x7f020013;
+        public static final int card_bk=0x7f020014;
+        public static final int common_full_open_on_phone=0x7f020015;
+        public static final int common_google_signin_btn_icon_dark=0x7f020016;
+        public static final int common_google_signin_btn_icon_dark_disabled=0x7f020017;
+        public static final int common_google_signin_btn_icon_dark_focused=0x7f020018;
+        public static final int common_google_signin_btn_icon_dark_normal=0x7f020019;
+        public static final int common_google_signin_btn_icon_dark_pressed=0x7f02001a;
+        public static final int common_google_signin_btn_icon_light=0x7f02001b;
+        public static final int common_google_signin_btn_icon_light_disabled=0x7f02001c;
+        public static final int common_google_signin_btn_icon_light_focused=0x7f02001d;
+        public static final int common_google_signin_btn_icon_light_normal=0x7f02001e;
+        public static final int common_google_signin_btn_icon_light_pressed=0x7f02001f;
+        public static final int common_google_signin_btn_text_dark=0x7f020020;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f020021;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f020022;
+        public static final int common_google_signin_btn_text_dark_normal=0x7f020023;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f020024;
+        public static final int common_google_signin_btn_text_light=0x7f020025;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f020026;
+        public static final int common_google_signin_btn_text_light_focused=0x7f020027;
+        public static final int common_google_signin_btn_text_light_normal=0x7f020028;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f020029;
+        public static final int common_ic_googleplayservices=0x7f02002a;
+        public static final int common_plus_signin_btn_icon_dark=0x7f02002b;
+        public static final int common_plus_signin_btn_icon_dark_disabled=0x7f02002c;
+        public static final int common_plus_signin_btn_icon_dark_focused=0x7f02002d;
+        public static final int common_plus_signin_btn_icon_dark_normal=0x7f02002e;
+        public static final int common_plus_signin_btn_icon_dark_pressed=0x7f02002f;
+        public static final int common_plus_signin_btn_icon_light=0x7f020030;
+        public static final int common_plus_signin_btn_icon_light_disabled=0x7f020031;
+        public static final int common_plus_signin_btn_icon_light_focused=0x7f020032;
+        public static final int common_plus_signin_btn_icon_light_normal=0x7f020033;
+        public static final int common_plus_signin_btn_icon_light_pressed=0x7f020034;
+        public static final int common_plus_signin_btn_text_dark=0x7f020035;
+        public static final int common_plus_signin_btn_text_dark_disabled=0x7f020036;
+        public static final int common_plus_signin_btn_text_dark_focused=0x7f020037;
+        public static final int common_plus_signin_btn_text_dark_normal=0x7f020038;
+        public static final int common_plus_signin_btn_text_dark_pressed=0x7f020039;
+        public static final int common_plus_signin_btn_text_light=0x7f02003a;
+        public static final int common_plus_signin_btn_text_light_disabled=0x7f02003b;
+        public static final int common_plus_signin_btn_text_light_focused=0x7f02003c;
+        public static final int common_plus_signin_btn_text_light_normal=0x7f02003d;
+        public static final int common_plus_signin_btn_text_light_pressed=0x7f02003e;
+        public static final int custom_rating_bar=0x7f02003f;
+        public static final int dialog_background=0x7f020040;
+        public static final int dir1=0x7f020041;
+        public static final int dir10=0x7f020042;
+        public static final int dir11=0x7f020043;
+        public static final int dir12=0x7f020044;
+        public static final int dir13=0x7f020045;
+        public static final int dir14=0x7f020046;
+        public static final int dir15=0x7f020047;
+        public static final int dir16=0x7f020048;
+        public static final int dir2=0x7f020049;
+        public static final int dir3=0x7f02004a;
+        public static final int dir4=0x7f02004b;
+        public static final int dir5=0x7f02004c;
+        public static final int dir6=0x7f02004d;
+        public static final int dir7=0x7f02004e;
+        public static final int dir8=0x7f02004f;
+        public static final int dir9=0x7f020050;
+        public static final int dir_end=0x7f020051;
+        public static final int dir_start=0x7f020052;
+        public static final int dir_station=0x7f020053;
+        public static final int down=0x7f020054;
+        public static final int end=0x7f020055;
+        public static final int erwei=0x7f020056;
+        public static final int gongxian=0x7f020057;
+        public static final int gps_point=0x7f020058;
+        public static final int ic_default=0x7f020059;
+        public static final int ic_empty_page=0x7f02005a;
+        public static final int ic_error_page=0x7f02005b;
+        public static final int ic_launcher=0x7f02005c;
+        public static final int ic_pager=0x7f02005d;
+        public static final int ic_pager_indicator_selected_18dp=0x7f02005e;
+        public static final int ic_send_blue_48dp=0x7f02005f;
+        public static final int ic_send_gray_48dp=0x7f020060;
+        public static final int icon_call=0x7f020061;
+        public static final int icon_voice=0x7f020062;
+        public static final int indicator_corner_bg=0x7f020063;
+        public static final int list_item_bg_normal=0x7f020064;
+        public static final int list_item_bg_pressed=0x7f020065;
+        public static final int list_item_bg_selector=0x7f020066;
+        public static final int me1=0x7f020067;
+        public static final int me2=0x7f020068;
+        public static final int me3=0x7f020069;
+        public static final int me4=0x7f02006a;
+        public static final int me5=0x7f02006b;
+        public static final int me6=0x7f02006c;
+        public static final int me7=0x7f02006d;
+        public static final int me8=0x7f02006e;
+        public static final int me9=0x7f02006f;
+        public static final int navi_map_gps_locked=0x7f020070;
+        public static final int rating_small_empty=0x7f020071;
+        public static final int rating_small_full=0x7f020072;
+        public static final int rating_small_half=0x7f020073;
+        public static final int route_bus_normal=0x7f020074;
+        public static final int route_bus_select=0x7f020075;
+        public static final int route_drive_normal=0x7f020076;
+        public static final int route_drive_select=0x7f020077;
+        public static final int route_walk_normal=0x7f020078;
+        public static final int route_walk_select=0x7f020079;
+        public static final int search=0x7f02007a;
+        public static final int search_clear=0x7f02007b;
+        public static final int ssdk_auth_title_back=0x7f02007c;
+        public static final int ssdk_back_arr=0x7f02007d;
+        public static final int ssdk_logo=0x7f02007e;
+        public static final int ssdk_oks_classic_alipay=0x7f02007f;
+        public static final int ssdk_oks_classic_alipaymoments=0x7f020080;
+        public static final int ssdk_oks_classic_bluetooth=0x7f020081;
+        public static final int ssdk_oks_classic_check_checked=0x7f020082;
+        public static final int ssdk_oks_classic_check_default=0x7f020083;
+        public static final int ssdk_oks_classic_dingding=0x7f020084;
+        public static final int ssdk_oks_classic_douban=0x7f020085;
+        public static final int ssdk_oks_classic_dropbox=0x7f020086;
+        public static final int ssdk_oks_classic_email=0x7f020087;
+        public static final int ssdk_oks_classic_evernote=0x7f020088;
+        public static final int ssdk_oks_classic_facebook=0x7f020089;
+        public static final int ssdk_oks_classic_facebookmessenger=0x7f02008a;
+        public static final int ssdk_oks_classic_flickr=0x7f02008b;
+        public static final int ssdk_oks_classic_foursquare=0x7f02008c;
+        public static final int ssdk_oks_classic_googleplus=0x7f02008d;
+        public static final int ssdk_oks_classic_instagram=0x7f02008e;
+        public static final int ssdk_oks_classic_instapaper=0x7f02008f;
+        public static final int ssdk_oks_classic_kaixin=0x7f020090;
+        public static final int ssdk_oks_classic_kakaostory=0x7f020091;
+        public static final int ssdk_oks_classic_kakaotalk=0x7f020092;
+        public static final int ssdk_oks_classic_laiwang=0x7f020093;
+        public static final int ssdk_oks_classic_laiwangmoments=0x7f020094;
+        public static final int ssdk_oks_classic_line=0x7f020095;
+        public static final int ssdk_oks_classic_linkedin=0x7f020096;
+        public static final int ssdk_oks_classic_meipai=0x7f020097;
+        public static final int ssdk_oks_classic_mingdao=0x7f020098;
+        public static final int ssdk_oks_classic_pinterest=0x7f020099;
+        public static final int ssdk_oks_classic_platform_cell_back=0x7f02009a;
+        public static final int ssdk_oks_classic_platfrom_cell_back_nor=0x7f0200b5;
+        public static final int ssdk_oks_classic_platfrom_cell_back_sel=0x7f0200b6;
+        public static final int ssdk_oks_classic_pocket=0x7f02009b;
+        public static final int ssdk_oks_classic_progressbar=0x7f02009c;
+        public static final int ssdk_oks_classic_qq=0x7f02009d;
+        public static final int ssdk_oks_classic_qzone=0x7f02009e;
+        public static final int ssdk_oks_classic_renren=0x7f02009f;
+        public static final int ssdk_oks_classic_shortmessage=0x7f0200a0;
+        public static final int ssdk_oks_classic_sinaweibo=0x7f0200a1;
+        public static final int ssdk_oks_classic_tencentweibo=0x7f0200a2;
+        public static final int ssdk_oks_classic_tumblr=0x7f0200a3;
+        public static final int ssdk_oks_classic_twitter=0x7f0200a4;
+        public static final int ssdk_oks_classic_vkontakte=0x7f0200a5;
+        public static final int ssdk_oks_classic_wechat=0x7f0200a6;
+        public static final int ssdk_oks_classic_wechatfavorite=0x7f0200a7;
+        public static final int ssdk_oks_classic_wechatmoments=0x7f0200a8;
+        public static final int ssdk_oks_classic_whatsapp=0x7f0200a9;
+        public static final int ssdk_oks_classic_yixin=0x7f0200aa;
+        public static final int ssdk_oks_classic_yixinmoments=0x7f0200ab;
+        public static final int ssdk_oks_classic_youdao=0x7f0200ac;
+        public static final int ssdk_oks_classic_youtube=0x7f0200ad;
+        public static final int ssdk_oks_ptr_ptr=0x7f0200ae;
+        public static final int ssdk_title_div=0x7f0200af;
+        public static final int start=0x7f0200b0;
+        public static final int title_background=0x7f0200b1;
+        public static final int up=0x7f0200b2;
+        public static final int user_icon=0x7f0200b3;
+        public static final int zhifu=0x7f0200b4;
     }
     public static final class id {
-        public static final int action_settings=0x7f080005;
-        public static final int ll_btn_main=0x7f080001;
-        public static final int map=0x7f080000;
-        public static final int rbtn_me=0x7f080004;
-        public static final int rbtn_navigate=0x7f080002;
-        public static final int rbtn_nearby=0x7f080003;
+        public static final int Accordion=0x7f0b000d;
+        public static final int Background2Foreground=0x7f0b000e;
+        public static final int CubeIn=0x7f0b000f;
+        public static final int Default=0x7f0b0010;
+        public static final int DepthPage=0x7f0b0011;
+        public static final int Fade=0x7f0b0012;
+        public static final int FlipHorizontal=0x7f0b0013;
+        public static final int FlipPage=0x7f0b0014;
+        public static final int Foreground2Background=0x7f0b0015;
+        public static final int RotateDown=0x7f0b0016;
+        public static final int RotateUp=0x7f0b0017;
+        public static final int Stack=0x7f0b0018;
+        public static final int Tablet=0x7f0b0019;
+        public static final int ZoomIn=0x7f0b001a;
+        public static final int ZoomOut=0x7f0b001b;
+        public static final int ZoomOutSlide=0x7f0b001c;
+        public static final int action_settings=0x7f0b0091;
+        public static final int adjust_height=0x7f0b0000;
+        public static final int adjust_width=0x7f0b0001;
+        public static final int auto=0x7f0b000a;
+        public static final int bottom_layout=0x7f0b0051;
+        public static final int btn_go=0x7f0b002a;
+        public static final int btn_jam=0x7f0b0023;
+        public static final int btn_message=0x7f0b002e;
+        public static final int btn_retry=0x7f0b0077;
+        public static final int bus_dir_icon=0x7f0b006d;
+        public static final int bus_dir_icon_down=0x7f0b006f;
+        public static final int bus_dir_icon_up=0x7f0b006e;
+        public static final int bus_expand_image=0x7f0b0072;
+        public static final int bus_item=0x7f0b0070;
+        public static final int bus_line_name=0x7f0b0074;
+        public static final int bus_line_station_name=0x7f0b0076;
+        public static final int bus_path_des=0x7f0b0069;
+        public static final int bus_path_title=0x7f0b0068;
+        public static final int bus_route_direction=0x7f0b006c;
+        public static final int bus_seg_split_line=0x7f0b006b;
+        public static final int bus_station_num=0x7f0b0073;
+        public static final int circles=0x7f0b001d;
+        public static final int daimajia_indicator_wrapper=0x7f0b0066;
+        public static final int daimajia_slider_image=0x7f0b007d;
+        public static final int daimajia_slider_viewpager=0x7f0b0086;
+        public static final int dark=0x7f0b000b;
+        public static final int default_bottom_left_indicator=0x7f0b0089;
+        public static final int default_bottom_right_indicator=0x7f0b0088;
+        public static final int default_center_bottom_indicator=0x7f0b0087;
+        public static final int default_center_top_indicator=0x7f0b008a;
+        public static final int default_center_top_left_indicator=0x7f0b008c;
+        public static final int default_center_top_right_indicator=0x7f0b008b;
+        public static final int description=0x7f0b0080;
+        public static final int description_layout=0x7f0b007f;
+        public static final int detail=0x7f0b0054;
+        public static final int et_end=0x7f0b0044;
+        public static final int et_search=0x7f0b0083;
+        public static final int et_start=0x7f0b0042;
+        public static final int expand_content=0x7f0b0075;
+        public static final int firstLine=0x7f0b0028;
+        public static final int firstline=0x7f0b0052;
+        public static final int fl_map=0x7f0b004e;
+        public static final int ibtn_back=0x7f0b0025;
+        public static final int ibtn_search=0x7f0b0085;
+        public static final int icon_only=0x7f0b0007;
+        public static final int image=0x7f0b006a;
+        public static final int info=0x7f0b0067;
+        public static final int invisible=0x7f0b0003;
+        public static final int iv_binding=0x7f0b0039;
+        public static final int iv_bus=0x7f0b004b;
+        public static final int iv_contribute=0x7f0b003b;
+        public static final int iv_drive=0x7f0b0049;
+        public static final int iv_enter=0x7f0b005f;
+        public static final int iv_money=0x7f0b0037;
+        public static final int iv_phone=0x7f0b0064;
+        public static final int iv_photo=0x7f0b005c;
+        public static final int iv_photo1=0x7f0b008e;
+        public static final int iv_photo2=0x7f0b008f;
+        public static final int iv_photo3=0x7f0b0090;
+        public static final int iv_voice=0x7f0b0084;
+        public static final int iv_walk=0x7f0b004d;
+        public static final int light=0x7f0b000c;
+        public static final int ll_btn_main=0x7f0b002f;
+        public static final int ll_center_map=0x7f0b0046;
+        public static final int ll_content=0x7f0b007b;
+        public static final int ll_end=0x7f0b0043;
+        public static final int ll_fromto=0x7f0b0040;
+        public static final int ll_item=0x7f0b005b;
+        public static final int ll_phone=0x7f0b0063;
+        public static final int ll_start=0x7f0b0041;
+        public static final int ll_third_way=0x7f0b0047;
+        public static final int ll_three_phone=0x7f0b008d;
+        public static final int ll_viewpager=0x7f0b0056;
+        public static final int loading_bar=0x7f0b007e;
+        public static final int lv_bus_route=0x7f0b002b;
+        public static final int lv_data=0x7f0b005a;
+        public static final int lv_fragment=0x7f0b0061;
+        public static final int lv_route=0x7f0b0050;
+        public static final int lv_search=0x7f0b0055;
+        public static final int map=0x7f0b002d;
+        public static final int material=0x7f0b001e;
+        public static final int metaball=0x7f0b0078;
+        public static final int myDirectionView=0x7f0b002c;
+        public static final int navi_view=0x7f0b0022;
+        public static final int none=0x7f0b0002;
+        public static final int oval=0x7f0b0005;
+        public static final int profile_image=0x7f0b0034;
+        public static final int pt_indicator=0x7f0b0057;
+        public static final int rb_star=0x7f0b0062;
+        public static final int rbtn_me=0x7f0b0032;
+        public static final int rbtn_navigate=0x7f0b0030;
+        public static final int rbtn_nearby=0x7f0b0031;
+        public static final int rect=0x7f0b0006;
+        public static final int refreshlayout=0x7f0b0060;
+        public static final int ring=0x7f0b001f;
+        public static final int rl_binding=0x7f0b0038;
+        public static final int rl_contribute=0x7f0b003a;
+        public static final int rl_money=0x7f0b0036;
+        public static final int rl_route_bus_normal=0x7f0b004a;
+        public static final int rl_route_drive_normal=0x7f0b0048;
+        public static final int rl_route_walk_normal=0x7f0b004c;
+        public static final int route_map=0x7f0b004f;
+        public static final int search_result=0x7f0b0059;
+        public static final int secondLine=0x7f0b0029;
+        public static final int secondline=0x7f0b0053;
+        public static final int smartisan=0x7f0b0020;
+        public static final int standard=0x7f0b0008;
+        public static final int stationinfo=0x7f0b0071;
+        public static final int triangle_view=0x7f0b007c;
+        public static final int tv_address=0x7f0b0082;
+        public static final int tv_author=0x7f0b003f;
+        public static final int tv_distance=0x7f0b005d;
+        public static final int tv_endPoi=0x7f0b007a;
+        public static final int tv_help=0x7f0b003d;
+        public static final int tv_map=0x7f0b0027;
+        public static final int tv_name=0x7f0b0035;
+        public static final int tv_outdata=0x7f0b003c;
+        public static final int tv_phone=0x7f0b0065;
+        public static final int tv_search=0x7f0b0045;
+        public static final int tv_search_name=0x7f0b0081;
+        public static final int tv_share=0x7f0b003e;
+        public static final int tv_snippet=0x7f0b005e;
+        public static final int tv_startPoi=0x7f0b0079;
+        public static final int tv_title=0x7f0b0026;
+        public static final int twowei=0x7f0b0033;
+        public static final int visible=0x7f0b0004;
+        public static final int vp_fragment=0x7f0b0058;
+        public static final int water_drop=0x7f0b0021;
+        public static final int webview=0x7f0b0024;
+        public static final int wide=0x7f0b0009;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f090000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_basic_navi=0x7f030000;
+        public static final int activity_bus_route_detail=0x7f030001;
+        public static final int activity_custom_direction_view=0x7f030002;
+        public static final int activity_help=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_me=0x7f030005;
+        public static final int activity_navigate=0x7f030006;
+        public static final int activity_nearby=0x7f030007;
+        public static final int activity_outdata=0x7f030008;
+        public static final int activity_webview=0x7f030009;
+        public static final int base=0x7f03000a;
+        public static final int busitem_listview=0x7f03000b;
+        public static final int fragment_listview=0x7f03000c;
+        public static final int hotelitem_listview=0x7f03000d;
+        public static final int indicator_layout=0x7f03000e;
+        public static final int item_bus_search_result=0x7f03000f;
+        public static final int item_bus_segment=0x7f030010;
+        public static final int item_bus_segment_ex=0x7f030011;
+        public static final int item_bus_step=0x7f030012;
+        public static final int item_listview=0x7f030013;
+        public static final int load_empty=0x7f030014;
+        public static final int load_error=0x7f030015;
+        public static final int load_loading=0x7f030016;
+        public static final int outdataitem=0x7f030017;
+        public static final int popup_base=0x7f030018;
+        public static final int popup_bubble=0x7f030019;
+        public static final int render_type_default=0x7f03001a;
+        public static final int render_type_text=0x7f03001b;
+        public static final int search_item_layout=0x7f03001c;
+        public static final int search_layout=0x7f03001d;
+        public static final int search_position=0x7f03001e;
+        public static final int slider_layout=0x7f03001f;
+        public static final int tour2item_listview=0x7f030020;
+        public static final int touritem_listview=0x7f030021;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f0a0000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060000;
-        public static final int app_name=0x7f060001;
-        public static final int hello_world=0x7f060002;
-        public static final int me=0x7f060003;
-        public static final int navigate=0x7f060004;
-        public static final int nearby=0x7f060005;
+        public static final int action_settings=0x7f040075;
+        public static final int app_name=0x7f040076;
+        public static final int auth_google_play_services_client_facebook_display_name=0x7f040077;
+        public static final int auth_google_play_services_client_google_display_name=0x7f040078;
+        public static final int common_google_play_services_api_unavailable_text=0x7f040000;
+        public static final int common_google_play_services_enable_button=0x7f040001;
+        public static final int common_google_play_services_enable_text=0x7f040002;
+        public static final int common_google_play_services_enable_title=0x7f040003;
+        public static final int common_google_play_services_install_button=0x7f040004;
+        public static final int common_google_play_services_install_text_phone=0x7f040005;
+        public static final int common_google_play_services_install_text_tablet=0x7f040006;
+        public static final int common_google_play_services_install_title=0x7f040007;
+        public static final int common_google_play_services_invalid_account_text=0x7f040008;
+        public static final int common_google_play_services_invalid_account_title=0x7f040009;
+        public static final int common_google_play_services_network_error_text=0x7f04000a;
+        public static final int common_google_play_services_network_error_title=0x7f04000b;
+        public static final int common_google_play_services_notification_ticker=0x7f04000c;
+        public static final int common_google_play_services_restricted_profile_text=0x7f04000d;
+        public static final int common_google_play_services_restricted_profile_title=0x7f04000e;
+        public static final int common_google_play_services_sign_in_failed_text=0x7f04000f;
+        public static final int common_google_play_services_sign_in_failed_title=0x7f040010;
+        public static final int common_google_play_services_unknown_issue=0x7f040011;
+        public static final int common_google_play_services_unsupported_text=0x7f040012;
+        public static final int common_google_play_services_unsupported_title=0x7f040013;
+        public static final int common_google_play_services_update_button=0x7f040014;
+        public static final int common_google_play_services_update_text=0x7f040015;
+        public static final int common_google_play_services_update_title=0x7f040016;
+        public static final int common_google_play_services_updating_text=0x7f040017;
+        public static final int common_google_play_services_updating_title=0x7f040018;
+        public static final int common_google_play_services_wear_update_text=0x7f040019;
+        public static final int common_open_on_phone=0x7f04001a;
+        public static final int common_signin_button_text=0x7f04001b;
+        public static final int common_signin_button_text_long=0x7f04001c;
+        public static final int hello_world=0x7f040079;
+        public static final int me=0x7f04007a;
+        public static final int navigate=0x7f04007b;
+        public static final int nearby=0x7f04007c;
+        public static final int ssdk_alipay=0x7f04001d;
+        public static final int ssdk_alipay_client_inavailable=0x7f04001e;
+        public static final int ssdk_alipaymoments=0x7f04001f;
+        public static final int ssdk_bluetooth=0x7f040020;
+        public static final int ssdk_dingding=0x7f040021;
+        public static final int ssdk_douban=0x7f040022;
+        public static final int ssdk_dropbox=0x7f040023;
+        public static final int ssdk_email=0x7f040024;
+        public static final int ssdk_evernote=0x7f040025;
+        public static final int ssdk_facebook=0x7f040026;
+        public static final int ssdk_facebookmessenger=0x7f040027;
+        public static final int ssdk_facebookmessenger_client_inavailable=0x7f040028;
+        public static final int ssdk_flickr=0x7f040029;
+        public static final int ssdk_foursquare=0x7f04002a;
+        public static final int ssdk_gender_female=0x7f04007d;
+        public static final int ssdk_gender_male=0x7f04007e;
+        public static final int ssdk_google_plus_client_inavailable=0x7f04002b;
+        public static final int ssdk_googleplus=0x7f04002c;
+        public static final int ssdk_instagram=0x7f04002d;
+        public static final int ssdk_instagram_client_inavailable=0x7f04002e;
+        public static final int ssdk_instapager_email_or_password_incorrect=0x7f04002f;
+        public static final int ssdk_instapager_login_html=0x7f04007f;
+        public static final int ssdk_instapaper=0x7f040030;
+        public static final int ssdk_instapaper_email=0x7f040031;
+        public static final int ssdk_instapaper_login=0x7f040032;
+        public static final int ssdk_instapaper_logining=0x7f040033;
+        public static final int ssdk_instapaper_pwd=0x7f040034;
+        public static final int ssdk_kaixin=0x7f040035;
+        public static final int ssdk_kakaostory=0x7f040036;
+        public static final int ssdk_kakaostory_client_inavailable=0x7f040037;
+        public static final int ssdk_kakaotalk=0x7f040038;
+        public static final int ssdk_kakaotalk_client_inavailable=0x7f040039;
+        public static final int ssdk_laiwang=0x7f04003a;
+        public static final int ssdk_laiwang_client_inavailable=0x7f04003b;
+        public static final int ssdk_laiwangmoments=0x7f04003c;
+        public static final int ssdk_line=0x7f04003d;
+        public static final int ssdk_line_client_inavailable=0x7f04003e;
+        public static final int ssdk_linkedin=0x7f04003f;
+        public static final int ssdk_meipai=0x7f040040;
+        public static final int ssdk_mingdao=0x7f040041;
+        public static final int ssdk_mingdao_share_content=0x7f040042;
+        public static final int ssdk_neteasemicroblog=0x7f040043;
+        public static final int ssdk_oks_cancel=0x7f040044;
+        public static final int ssdk_oks_confirm=0x7f040045;
+        public static final int ssdk_oks_contacts=0x7f040046;
+        public static final int ssdk_oks_multi_share=0x7f040047;
+        public static final int ssdk_oks_pull_to_refresh=0x7f040048;
+        public static final int ssdk_oks_refreshing=0x7f040049;
+        public static final int ssdk_oks_release_to_refresh=0x7f04004a;
+        public static final int ssdk_oks_share=0x7f04004b;
+        public static final int ssdk_oks_share_canceled=0x7f04004c;
+        public static final int ssdk_oks_share_completed=0x7f04004d;
+        public static final int ssdk_oks_share_failed=0x7f04004e;
+        public static final int ssdk_oks_sharing=0x7f04004f;
+        public static final int ssdk_pinterest=0x7f040050;
+        public static final int ssdk_pinterest_client_inavailable=0x7f040051;
+        public static final int ssdk_plurk=0x7f040052;
+        public static final int ssdk_pocket=0x7f040053;
+        public static final int ssdk_qq=0x7f040054;
+        public static final int ssdk_qq_client_inavailable=0x7f040055;
+        public static final int ssdk_qzone=0x7f040056;
+        public static final int ssdk_renren=0x7f040057;
+        public static final int ssdk_share_to_facebook=0x7f040058;
+        public static final int ssdk_share_to_googleplus=0x7f040059;
+        public static final int ssdk_share_to_mingdao=0x7f04005a;
+        public static final int ssdk_share_to_qq=0x7f04005b;
+        public static final int ssdk_share_to_qzone=0x7f04005c;
+        public static final int ssdk_share_to_qzone_default=0x7f04005d;
+        public static final int ssdk_share_to_youtube=0x7f040080;
+        public static final int ssdk_shortmessage=0x7f04005e;
+        public static final int ssdk_sinaweibo=0x7f04005f;
+        public static final int ssdk_sohumicroblog=0x7f040060;
+        public static final int ssdk_sohusuishenkan=0x7f040061;
+        public static final int ssdk_symbol_ellipsis=0x7f040081;
+        public static final int ssdk_tencentweibo=0x7f040062;
+        public static final int ssdk_tumblr=0x7f040063;
+        public static final int ssdk_twitter=0x7f040064;
+        public static final int ssdk_use_login_button=0x7f040065;
+        public static final int ssdk_vkontakte=0x7f040066;
+        public static final int ssdk_website=0x7f040067;
+        public static final int ssdk_wechat=0x7f040068;
+        public static final int ssdk_wechat_client_inavailable=0x7f040069;
+        public static final int ssdk_wechatfavorite=0x7f04006a;
+        public static final int ssdk_wechatmoments=0x7f04006b;
+        public static final int ssdk_weibo_oauth_regiseter=0x7f04006c;
+        public static final int ssdk_weibo_upload_content=0x7f04006d;
+        public static final int ssdk_whatsapp=0x7f04006e;
+        public static final int ssdk_whatsapp_client_inavailable=0x7f04006f;
+        public static final int ssdk_yixin=0x7f040070;
+        public static final int ssdk_yixin_client_inavailable=0x7f040071;
+        public static final int ssdk_yixinmoments=0x7f040072;
+        public static final int ssdk_youdao=0x7f040073;
+        public static final int ssdk_youtube=0x7f040074;
     }
     public static final class style {
+        public static final int AndroidImageSlider_Attractive_Rect_Blue=0x7f050001;
+        public static final int AndroidImageSlider_Corner_Oval_Orange=0x7f050002;
+        public static final int AndroidImageSlider_Magnifier_Oval_Black=0x7f050003;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
 
@@ -76,13 +980,555 @@ containing a value of this type.
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f050000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
-        public static final int mainButton=0x7f040002;
+        public static final int AppTheme=0x7f050004;
+        public static final int mainButton=0x7f050005;
     }
     public static final class styleable {
+        /** Attributes that can be used with a CircleImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_color com.second.letu:civ_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_overlay com.second.letu:civ_border_overlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_width com.second.letu:civ_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_fill_color com.second.letu:civ_fill_color}</code></td><td></td></tr>
+           </table>
+           @see #CircleImageView_civ_border_color
+           @see #CircleImageView_civ_border_overlay
+           @see #CircleImageView_civ_border_width
+           @see #CircleImageView_civ_fill_color
+         */
+        public static final int[] CircleImageView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#civ_border_color}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:civ_border_color
+        */
+        public static final int CircleImageView_civ_border_color = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#civ_border_overlay}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:civ_border_overlay
+        */
+        public static final int CircleImageView_civ_border_overlay = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#civ_border_width}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:civ_border_width
+        */
+        public static final int CircleImageView_civ_border_width = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#civ_fill_color}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:civ_fill_color
+        */
+        public static final int CircleImageView_civ_fill_color = 3;
+        /** Attributes that can be used with a LoadingImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.second.letu:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.second.letu:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.second.letu:imageAspectRatioAdjust}</code></td><td></td></tr>
+           </table>
+           @see #LoadingImageView_circleCrop
+           @see #LoadingImageView_imageAspectRatio
+           @see #LoadingImageView_imageAspectRatioAdjust
+         */
+        public static final int[] LoadingImageView = {
+            0x7f010004, 0x7f010005, 0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#circleCrop}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:circleCrop
+        */
+        public static final int LoadingImageView_circleCrop = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#imageAspectRatio}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:imageAspectRatio
+        */
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#imageAspectRatioAdjust}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.second.letu:imageAspectRatioAdjust
+        */
+        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
+        /** Attributes that can be used with a PagerIndicator.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_bottom com.second.letu:padding_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_left com.second.letu:padding_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_right com.second.letu:padding_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_top com.second.letu:padding_top}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_color com.second.letu:selected_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_drawable com.second.letu:selected_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_height com.second.letu:selected_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_bottom com.second.letu:selected_padding_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_left com.second.letu:selected_padding_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_right com.second.letu:selected_padding_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_top com.second.letu:selected_padding_top}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_width com.second.letu:selected_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_shape com.second.letu:shape}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_color com.second.letu:unselected_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_drawable com.second.letu:unselected_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_height com.second.letu:unselected_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_bottom com.second.letu:unselected_padding_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_left com.second.letu:unselected_padding_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_right com.second.letu:unselected_padding_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_top com.second.letu:unselected_padding_top}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_width com.second.letu:unselected_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_visibility com.second.letu:visibility}</code></td><td></td></tr>
+           </table>
+           @see #PagerIndicator_padding_bottom
+           @see #PagerIndicator_padding_left
+           @see #PagerIndicator_padding_right
+           @see #PagerIndicator_padding_top
+           @see #PagerIndicator_selected_color
+           @see #PagerIndicator_selected_drawable
+           @see #PagerIndicator_selected_height
+           @see #PagerIndicator_selected_padding_bottom
+           @see #PagerIndicator_selected_padding_left
+           @see #PagerIndicator_selected_padding_right
+           @see #PagerIndicator_selected_padding_top
+           @see #PagerIndicator_selected_width
+           @see #PagerIndicator_shape
+           @see #PagerIndicator_unselected_color
+           @see #PagerIndicator_unselected_drawable
+           @see #PagerIndicator_unselected_height
+           @see #PagerIndicator_unselected_padding_bottom
+           @see #PagerIndicator_unselected_padding_left
+           @see #PagerIndicator_unselected_padding_right
+           @see #PagerIndicator_unselected_padding_top
+           @see #PagerIndicator_unselected_width
+           @see #PagerIndicator_visibility
+         */
+        public static final int[] PagerIndicator = {
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+            0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012,
+            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
+            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a,
+            0x7f01001b, 0x7f01001c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#padding_bottom}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:padding_bottom
+        */
+        public static final int PagerIndicator_padding_bottom = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#padding_left}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:padding_left
+        */
+        public static final int PagerIndicator_padding_left = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#padding_right}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:padding_right
+        */
+        public static final int PagerIndicator_padding_right = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#padding_top}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:padding_top
+        */
+        public static final int PagerIndicator_padding_top = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_color}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:selected_color
+        */
+        public static final int PagerIndicator_selected_color = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_drawable}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.second.letu:selected_drawable
+        */
+        public static final int PagerIndicator_selected_drawable = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_height}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:selected_height
+        */
+        public static final int PagerIndicator_selected_height = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_padding_bottom}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:selected_padding_bottom
+        */
+        public static final int PagerIndicator_selected_padding_bottom = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_padding_left}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:selected_padding_left
+        */
+        public static final int PagerIndicator_selected_padding_left = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_padding_right}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:selected_padding_right
+        */
+        public static final int PagerIndicator_selected_padding_right = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_padding_top}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:selected_padding_top
+        */
+        public static final int PagerIndicator_selected_padding_top = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#selected_width}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:selected_width
+        */
+        public static final int PagerIndicator_selected_width = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#shape}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>oval</code></td><td>0</td><td></td></tr>
+<tr><td><code>rect</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.second.letu:shape
+        */
+        public static final int PagerIndicator_shape = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_color}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:unselected_color
+        */
+        public static final int PagerIndicator_unselected_color = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_drawable}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.second.letu:unselected_drawable
+        */
+        public static final int PagerIndicator_unselected_drawable = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_height}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:unselected_height
+        */
+        public static final int PagerIndicator_unselected_height = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_padding_bottom}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:unselected_padding_bottom
+        */
+        public static final int PagerIndicator_unselected_padding_bottom = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_padding_left}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:unselected_padding_left
+        */
+        public static final int PagerIndicator_unselected_padding_left = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_padding_right}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:unselected_padding_right
+        */
+        public static final int PagerIndicator_unselected_padding_right = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_padding_top}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:unselected_padding_top
+        */
+        public static final int PagerIndicator_unselected_padding_top = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#unselected_width}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:unselected_width
+        */
+        public static final int PagerIndicator_unselected_width = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#visibility}
+          attribute's value can be found in the {@link #PagerIndicator} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>visible</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.second.letu:visibility
+        */
+        public static final int PagerIndicator_visibility = 0;
         /** Attributes that can be used with a RippleView.
            <p>Includes the following attributes:</p>
            <table>
@@ -98,7 +1544,7 @@ containing a value of this type.
            @see #RippleView_rippleColor
          */
         public static final int[] RippleView = {
-            0x7f010000, 0x7f010001, 0x7f010002
+            0x7f01001d, 0x7f01001e, 0x7f01001f
         };
         /**
           <p>This symbol is the offset where the {@link com.second.letu.R.attr#alphaFactor}
@@ -143,5 +1589,260 @@ containing a value of this type.
           @attr name com.second.letu:rippleColor
         */
         public static final int RippleView_rippleColor = 0;
+        /** Attributes that can be used with a SignInButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize com.second.letu:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme com.second.letu:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris com.second.letu:scopeUris}</code></td><td></td></tr>
+           </table>
+           @see #SignInButton_buttonSize
+           @see #SignInButton_colorScheme
+           @see #SignInButton_scopeUris
+         */
+        public static final int[] SignInButton = {
+            0x7f010020, 0x7f010021, 0x7f010022
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#buttonSize}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.second.letu:buttonSize
+        */
+        public static final int SignInButton_buttonSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#colorScheme}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.second.letu:colorScheme
+        */
+        public static final int SignInButton_colorScheme = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#scopeUris}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.second.letu:scopeUris
+        */
+        public static final int SignInButton_scopeUris = 2;
+        /** Attributes that can be used with a SliderLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SliderLayout_auto_cycle com.second.letu:auto_cycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #SliderLayout_indicator_visibility com.second.letu:indicator_visibility}</code></td><td></td></tr>
+           <tr><td><code>{@link #SliderLayout_pager_animation com.second.letu:pager_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SliderLayout_pager_animation_span com.second.letu:pager_animation_span}</code></td><td></td></tr>
+           </table>
+           @see #SliderLayout_auto_cycle
+           @see #SliderLayout_indicator_visibility
+           @see #SliderLayout_pager_animation
+           @see #SliderLayout_pager_animation_span
+         */
+        public static final int[] SliderLayout = {
+            0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#auto_cycle}
+          attribute's value can be found in the {@link #SliderLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:auto_cycle
+        */
+        public static final int SliderLayout_auto_cycle = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#indicator_visibility}
+          attribute's value can be found in the {@link #SliderLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>visible</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.second.letu:indicator_visibility
+        */
+        public static final int SliderLayout_indicator_visibility = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#pager_animation}
+          attribute's value can be found in the {@link #SliderLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>Default</code></td><td>0</td><td></td></tr>
+<tr><td><code>Accordion</code></td><td>1</td><td></td></tr>
+<tr><td><code>Background2Foreground</code></td><td>2</td><td></td></tr>
+<tr><td><code>CubeIn</code></td><td>3</td><td></td></tr>
+<tr><td><code>DepthPage</code></td><td>4</td><td></td></tr>
+<tr><td><code>Fade</code></td><td>5</td><td></td></tr>
+<tr><td><code>FlipHorizontal</code></td><td>6</td><td></td></tr>
+<tr><td><code>FlipPage</code></td><td>7</td><td></td></tr>
+<tr><td><code>Foreground2Background</code></td><td>8</td><td></td></tr>
+<tr><td><code>RotateDown</code></td><td>9</td><td></td></tr>
+<tr><td><code>RotateUp</code></td><td>10</td><td></td></tr>
+<tr><td><code>Stack</code></td><td>11</td><td></td></tr>
+<tr><td><code>Tablet</code></td><td>12</td><td></td></tr>
+<tr><td><code>ZoomIn</code></td><td>13</td><td></td></tr>
+<tr><td><code>ZoomOutSlide</code></td><td>14</td><td></td></tr>
+<tr><td><code>ZoomOut</code></td><td>15</td><td></td></tr>
+</table>
+          @attr name com.second.letu:pager_animation
+        */
+        public static final int SliderLayout_pager_animation = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#pager_animation_span}
+          attribute's value can be found in the {@link #SliderLayout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.second.letu:pager_animation_span
+        */
+        public static final int SliderLayout_pager_animation_span = 3;
+        /** Attributes that can be used with a Themes.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Themes_PagerIndicatorStyle com.second.letu:PagerIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Themes_SliderStyle com.second.letu:SliderStyle}</code></td><td></td></tr>
+           </table>
+           @see #Themes_PagerIndicatorStyle
+           @see #Themes_SliderStyle
+         */
+        public static final int[] Themes = {
+            0x7f010027, 0x7f010028
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#PagerIndicatorStyle}
+          attribute's value can be found in the {@link #Themes} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.second.letu:PagerIndicatorStyle
+        */
+        public static final int Themes_PagerIndicatorStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#SliderStyle}
+          attribute's value can be found in the {@link #Themes} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.second.letu:SliderStyle
+        */
+        public static final int Themes_SliderStyle = 0;
+        /** Attributes that can be used with a refresh_PullRefreshLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #refresh_PullRefreshLayout_refreshColor com.second.letu:refreshColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #refresh_PullRefreshLayout_refreshColors com.second.letu:refreshColors}</code></td><td></td></tr>
+           <tr><td><code>{@link #refresh_PullRefreshLayout_refreshType com.second.letu:refreshType}</code></td><td></td></tr>
+           </table>
+           @see #refresh_PullRefreshLayout_refreshColor
+           @see #refresh_PullRefreshLayout_refreshColors
+           @see #refresh_PullRefreshLayout_refreshType
+         */
+        public static final int[] refresh_PullRefreshLayout = {
+            0x7f010029, 0x7f01002a, 0x7f01002b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#refreshColor}
+          attribute's value can be found in the {@link #refresh_PullRefreshLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.second.letu:refreshColor
+        */
+        public static final int refresh_PullRefreshLayout_refreshColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#refreshColors}
+          attribute's value can be found in the {@link #refresh_PullRefreshLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.second.letu:refreshColors
+        */
+        public static final int refresh_PullRefreshLayout_refreshColors = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.second.letu.R.attr#refreshType}
+          attribute's value can be found in the {@link #refresh_PullRefreshLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>material</code></td><td>0</td><td></td></tr>
+<tr><td><code>circles</code></td><td>1</td><td></td></tr>
+<tr><td><code>water_drop</code></td><td>2</td><td></td></tr>
+<tr><td><code>ring</code></td><td>3</td><td></td></tr>
+<tr><td><code>smartisan</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.second.letu:refreshType
+        */
+        public static final int refresh_PullRefreshLayout_refreshType = 0;
     };
 }

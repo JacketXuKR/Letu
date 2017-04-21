@@ -1,7 +1,4 @@
-#Mon Mar 06 13:52:15 CST 2017
-base.0=E\:\\otherProject\\Letu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1f5035456bd4c2c6c64aed8e11c53facc7f1c643
-renamed.1=classes2.dex
+#Fri Apr 21 12:40:54 CST 2017
+base.0=E\:\\otherProject\\Letu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=E\:\\otherProject\\Letu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5ac1ed962584c12ff19104e9b3fd316f9b18a90b\\classes.dex
-base.1=E\:\\otherProject\\Letu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5ac1ed962584c12ff19104e9b3fd316f9b18a90b
-file.0=E\:\\otherProject\\Letu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1f5035456bd4c2c6c64aed8e11c53facc7f1c643\\classes.dex
+file.0=E\:\\otherProject\\Letu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

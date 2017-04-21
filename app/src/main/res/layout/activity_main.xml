@@ -1,16 +1,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:ripple="http://schemas.android.com/apk/res/com.second.letu"
+              xmlns:ripple="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
-
-    <com.amap.api.maps.MapView
-        android:id="@+id/map"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-    >
-    </com.amap.api.maps.MapView>
+        android:layout_weight="1">
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.amap.api.maps.MapView>
+        <Button
+            android:id="@+id/btn_message"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="消息"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_pager"
+            android:textSize="12sp"
+            android:textColor="#fff"/>
+    </RelativeLayout>
     <LinearLayout
         android:id="@+id/ll_btn_main"
         android:layout_width="match_parent"
@@ -30,8 +45,7 @@
             android:text="@string/nearby"
             ripple:alphaFactor="0.7"
             ripple:hover="true"
-            ripple:rippleColor="#0391ff"
-        />
+            ripple:rippleColor="#0391ff"/>
         <com.indris.material.RippleView
             android:id="@+id/rbtn_me"
             style="@style/mainButton"

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_search_selector.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\btn_search_selector.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_bg_selector.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\custom_rating_bar.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\custom_rating_bar.xml"
+    }
+]

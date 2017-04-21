@@ -27,5 +27,4 @@
         <item name="android:background">#fff</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
-
 </resources>

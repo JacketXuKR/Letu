@@ -1,0 +1,12 @@
+int attr refreshColor 0x7f010002
+int attr refreshColors 0x7f010001
+int attr refreshType 0x7f010000
+int id circles 0x7f020000
+int id material 0x7f020001
+int id ring 0x7f020002
+int id smartisan 0x7f020003
+int id water_drop 0x7f020004
+int[] styleable refresh_PullRefreshLayout { 0x7f010000, 0x7f010001, 0x7f010002 }
+int styleable refresh_PullRefreshLayout_refreshColor 2
+int styleable refresh_PullRefreshLayout_refreshColors 1
+int styleable refresh_PullRefreshLayout_refreshType 0

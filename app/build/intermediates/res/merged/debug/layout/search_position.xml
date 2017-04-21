@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_start"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:background="#0086ef"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_marginRight="10dp"
+        android:text="出发点" />
+
+    <AutoCompleteTextView
+        android:id="@+id/et_start"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:hint="当前位置"
+        android:inputType="text|textAutoComplete"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="18sp" />
+</LinearLayout>

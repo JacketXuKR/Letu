@@ -1,0 +1,68 @@
+[
+    {
+        "outputFile": "E:\\otherProject\\Letu\\rippleView\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 236,
+                    "endColumn": 47,
+                    "endOffset": 279
+                },
+                "from": {
+                    "file": "E:\\otherProject\\Letu\\rippleView\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endColumn": 47,
+                        "endOffset": 279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 284,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 570
+                },
+                "from": {
+                    "file": "E:\\otherProject\\Letu\\rippleView\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 575,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 730
+                },
+                "from": {
+                    "file": "E:\\otherProject\\Letu\\rippleView\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 575,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 730
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_tab_text.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-xxhdpi\\bg_tab_text.xml"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_error_selector.xml",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-xxhdpi\\btn_error_selector.xml"
+    }
+]
