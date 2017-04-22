@@ -56,7 +56,6 @@ public class SensorEventHelper implements SensorEventListener {
 	//////////////////////SensorEventListener的方法/////////////////////////////////////
 	@Override
 	public void onAccuracyChanged(Sensor sensor, int accuracy) {
-		// TODO Auto-generated method stub
 
 	}
 

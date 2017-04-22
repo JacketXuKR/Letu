@@ -22,6 +22,7 @@ import com.amap.api.navi.model.NaviInfo;
 import com.amap.api.navi.model.NaviLatLng;
 import com.autonavi.tbt.NaviStaticInfo;
 import com.autonavi.tbt.TrafficFacilityInfo;
+import com.second.letu.util.ErrorInfo;
 import com.second.letu.util.UIUtil;
 
 import java.util.ArrayList;

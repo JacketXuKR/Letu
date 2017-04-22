@@ -98,7 +98,7 @@ public class SensorUtil {
     }
 
     /**
-     * 弹出拥挤对话框
+     * 弹出拥挤按键
      */
     private void trafficJamDialog(int speed) {
         //根据模式设置阈值

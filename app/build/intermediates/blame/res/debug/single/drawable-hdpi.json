@@ -368,12 +368,12 @@
         "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\title_background.9.png"
     },
     {
-        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\amap_through.png",
-        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\amap_through.png"
-    },
-    {
         "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rating_small_full.png",
         "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\rating_small_full.png"
+    },
+    {
+        "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\amap_through.png",
+        "source": "E:\\otherProject\\Letu\\app\\src\\main\\res\\drawable-hdpi\\amap_through.png"
     },
     {
         "merged": "E:\\otherProject\\Letu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png",

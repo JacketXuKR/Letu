@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class SQLiteUtil {
     private static MySQLiteHelper mMySQLiteHelper = new MySQLiteHelper(UIUtil.getContext(), "outData.db", null, 1);
     private SQLiteDatabase db;
-    private static SQLiteUtil mSQLiteUtil = new SQLiteUtil();
+    private static final SQLiteUtil mSQLiteUtil = new SQLiteUtil();
     private SQLiteUtil() {
     }
 

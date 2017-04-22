@@ -12,7 +12,6 @@ import java.util.ArrayList;
 public class FragmentFactory {
     /**
      * 根据position获取Fragment
-     *
      * @param position 位置
      * @return
      */
